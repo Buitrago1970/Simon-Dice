@@ -149,7 +149,7 @@ class Juego {
     }
   }
   ganoElJuego() {
-    swal("EN HORA BUENA GASTATE", "Tienes buena memoria :)", "success").then(
+    swal("HE MUCHO GENIO, !!GASTATE!!", "Tienes buena memoria 👍", "success").then(
       this.inicializar()
     );
   }
