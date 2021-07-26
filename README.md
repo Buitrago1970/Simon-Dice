@@ -1,2 +1,3 @@
-# Sim-n-Dice
-Juego Simón dice
+# Simon-Dice
+Juego Simón dice HTML, CSS, JS
+
