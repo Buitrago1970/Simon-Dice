@@ -86,7 +86,7 @@ class Juego {
       //la funcion iliminarColor se va a ejecutar cada 1 segundo multiplicado por i para que la secuncia se vea cada color
       setTimeout(() => {
         this.iluminarColor(color);
-      }, 1000 * i);
+      }, 800 * i);
       this.cambioColorFondo(color);
     }
   }
@@ -149,9 +149,11 @@ class Juego {
     }
   }
   ganoElJuego() {
-    swal("HE MUCHO GENIO, !!GASTATE!!", "Tienes buena memoria 👍", "success").then(
-      this.inicializar()
-    );
+    swal(
+      "HE MUCHO GENIO, !!GASTATE!!",
+      "Tienes buena memoria 👍",
+      "success"
+    ).then(this.inicializar());
   }
   perdioElJuego() {
     swal("LO SENTIMOS PERDISTE", "VUELVE A INTENTARLO ", "error").then(() => {
